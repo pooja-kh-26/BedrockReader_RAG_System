@@ -8,7 +8,8 @@ import streamlit as st
 
 from langchain_community.embeddings import BedrockEmbeddings
 from langchain_community.llms.bedrock import Bedrock
-from langchain.prompts import PromptTemplate
+#from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 
 # Data Ingestion
 
