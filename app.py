@@ -14,7 +14,7 @@ from langchain_core.prompts import PromptTemplate
 # Data Ingestion
 
 import numpy as np
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitter import RecursiveCharacterTextSplitter
 from langchain.document_loaders import PyPDFDirectoryLoader
 
 # Vector Embedding and Vector Store
